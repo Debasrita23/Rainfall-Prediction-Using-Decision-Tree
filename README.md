@@ -1,14 +1,14 @@
 #  Rainfall Prediction using Decision Tree
 
-Predicting whether it will rain tomorrow in Australia using historical weather data and machine learning.
+A machine learning project to predict whether it will rain tomorrow in Australia using historical weather data.
 
 ---
 
 ## 📂 Dataset
 - **File:** `weatherAUS.csv`
 - **Source:** Australian Bureau of Meteorology
-- **Target:** `RainTomorrow` (Yes/No)
-- **Features:** Temperature, Humidity, Wind Speed, Pressure, Rainfall, etc.
+- **Target Column:** `RainTomorrow` (Yes/No)
+- **Features:** Temperature, Humidity, Wind Speed, Pressure, Rainfall, and more.
 
 ---
 
@@ -21,9 +21,9 @@ Predicting whether it will rain tomorrow in Australia using historical weather d
 
 ## 📊 Workflow
 1. **Data Preprocessing**
-   - Handling missing values
-   - Encoding categorical variables
-   - Splitting train/test data
+   - Handle missing values
+   - Encode categorical variables
+   - Train-test split
 2. **Model Training**
    - Decision Tree Classifier
 3. **Evaluation**
@@ -32,13 +32,25 @@ Predicting whether it will rain tomorrow in Australia using historical weather d
 
 ---
 
-## 📈 Results
-| Metric          |  Model  |
-|-----------------|---------|
-| Accuracy        | 85%     |
-| Rain Precision  | 0.74    |
-| Rain Recall     | 0.46    |
-| Rain F1-score   | 0.57    |
+## 📈 Model Performance
+- **Accuracy:** 85%  
+- **Precision (Rain):** 0.74  
+- **Recall (Rain):** 0.46  
+- **F1-score (Rain):** 0.57  
+
+---
+
+## 📉 Confusion Matrix
+![Confusion Matrix](Confusion%20Matrix.png)
+
+|                | Pred. No Rain | Pred. Rain |
+|----------------|---------------|------------|
+| **Actual No Rain** | 8401 | 398 |
+| **Actual Rain**    | 1349 | 1136 |
+
+
+
+
 
 
 
