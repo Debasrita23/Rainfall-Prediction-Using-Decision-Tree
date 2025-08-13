@@ -33,12 +33,13 @@ Predicting whether it will rain tomorrow in Australia using historical weather d
 ---
 
 ## 📈 Results
-| Metric          | Model 1 | Model 2 |
-|-----------------|---------|---------|
-| Accuracy        | 83%     | 85%     |
-| Rain Precision  | 0.74    | 0.74    |
-| Rain Recall     | 0.37    | 0.46    |
-| Rain F1-score   | 0.49    | 0.57    |
+| Metric          |  Model  |
+|-----------------|---------|
+| Accuracy        | 85%     |
+| Rain Precision  | 0.74    |
+| Rain Recall     | 0.46    |
+| Rain F1-score   | 0.57    |
+
 
 
 
